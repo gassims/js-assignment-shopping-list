@@ -21,3 +21,17 @@
 .done {
   text-decoration: line-through;
 }
+
+/* To make the delete button look nice. */
+.delete {
+  background-color: #de1818;
+  margin-left: 3em;
+  margin-bottom: 1rem;
+  margin-top: 3em;
+  border-radius: 1rem;
+  color: white;
+  border: none;
+  font-size: 0.1em;
+  padding: 1em;
+  vertical-align: super;
+}
