@@ -1,6 +1,6 @@
 # js-assignment-shopping-list
 
-This is an assignment in a Javascript course (Web Developer in 2023 with HTML, CSS, Javascript, React, Node.js, Machine Learning & more!). The point of this assignment is to use events to modify the DOM (HTML and CSS). We are asked to 'fix' previous and new entries to have a delete button beside each entry as well as for each entry have the line-through effect on the text when clicked.
+This is an assignment in a Javascript course (Web Developer in 2023 with HTML, CSS, Javascript, React, Node.js, Machine Learning & more! - in the ZeroToMastery Academy). The point of this assignment is to use events to modify the DOM (HTML and CSS). We are asked to 'fix' previous and new entries to have a delete button beside each entry as well as for each entry have the line-through effect on the text when clicked.
 
 The most important part of this assignment is the Javascript code so when doing the assignment I tried to focus on not modifiying the DOM directly and instead using the Javascript to modify the HTML code. I did add a CSS styling but only after adding the class to the delete buttons using Javascript.
 
