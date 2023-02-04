@@ -6,6 +6,35 @@ function inputLength() {
 	return input.value.length;
 }
 
+var fixPreviousEnteries= () => {
+	/*
+	In the assignment, the previous list enteries didn't have delete buttons and line-through won't be applied
+	when clicked so rather than modifing the HTML, each item is given a delete button and added the done class
+	*/
+	var items = () =>
+	{
+		document.querySelectorAll("li").forEach(item => item.classList.add("done"));
+		document.querySelectorAll("li").forEach(item => item.classList.toggle("done"));
+		document.querySelectorAll("li").forEach(function callback(c,d){c.addEventListener("click", d => {c.classList.toggle("done")})});
+		document.querySelectorAll("li").forEach(function callback(c,d)
+		{
+		const newBtn = document.createElement("button");
+		const txtBtn = document.createTextNode("X");
+		newBtn.appendChild(txtBtn);
+		newBtn.setAttribute("class","delete");
+		c.insertAdjacentElement("beforeend",newBtn);
+		newBtn.addEventListener("click", d => {
+				c.outerHTML = "";
+				newBtn.outerHTML ="";
+			});
+		});
+	}; items();
+};
+fixPreviousEnteries();
+
+
+
+
 /*function createListElement() {
 	var li = document.createElement("li");
 	li.appendChild(document.createTextNode(input.value));
