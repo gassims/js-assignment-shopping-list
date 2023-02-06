@@ -14,9 +14,12 @@ At the same time of the creation item the button is being created with the 'dele
 ### Task Three: BONUS: When adding a new list item, it automatically adds the delete button next to it (hint: be sure to check if new items are clickable too!)
 This was achieved in Task two!
 
-### Task Four: All previous entries in the HTML didn't have the .done class nor a delete button for each item. The challenge here was to make sure that each item had an event that's listening for when the user clicks on it to have the line-through affect but when using the forEach loop the event was the same for all items so clicking on one item will cross all items, and that's when I learned about forEach callback and was able to create a unique event name for each item. Additionally, insertAdjacentElement made it very easy to add the delete buttons before the end of an item.
+### Task Four:
+All previous entries in the HTML didn't have the .done class nor a delete button for each item. The challenge here was to make sure that each item had an event that's listening for when the user clicks on it to have the line-through affect but when using the forEach loop the event was the same for all items so clicking on one item will cross all items, and that's when I learned about forEach callback and was able to create a unique event name for each item. Additionally, insertAdjacentElement made it very easy to add the delete buttons before the end of an item.
 
-### Task five: added some CSS code to the delete button to make it look nicer.
+### Task five:
+Added some CSS code to the delete button to make it look nicer.
 
-### Task six: added the repo to Github and opened a page for preview.
+### Task six:
+Added the repo to Github and opened a page for preview.
 
